@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="brand_name">CHAT</string>
+
+    <color name="conversation_background">@color/white</color>
+
+    <!-- all bubbles -->
+    <color name="bubble_selected_background_color">@color/light_blue</color>
+
+    <!-- brand bubble-->
+    <dimen name="brand_bubble_stroke_width">0dp</dimen>
+    <color name="brand_bubble_stroke_color">@color/rose_gold</color>
+    <color name="brand_bubble_message_text_color">@color/dim_gray</color>
+    <color name="brand_bubble_message_link_text_color">@color/color_text_white</color>
+    <color name="brand_bubble_timestamp_text_color">@color/dim_gray</color>
+    <color name="brand_bubble_background_color">@color/rose_gold</color>
+    <color name="brand_logo_background_color">@color/pearl_gray</color>
+
+
+    <!-- agent bubble-->
+    <dimen name="agent_bubble_stroke_width">0dp</dimen>
+    <color name="agent_bubble_stroke_color">@color/rose_gold</color>
+    <color name="agent_bubble_message_text_color">@color/dim_gray</color>
+    <color name="agent_bubble_message_link_text_color">@color/color_text_white</color>
+    <color name="agent_bubble_timestamp_text_color">@color/dim_gray</color>
+    <color name="agent_bubble_background_color">@color/rose_gold</color>
+    <color name="agent_avatar_background_color">@color/pearl_gray</color>
+    <color name="agent_avatar_icon_color">@color/pearl_gray</color>
+
+
+    <!--consumer bubble-->
+    <dimen name="consumer_bubble_stroke_width">0dp</dimen>
+    <color name="consumer_bubble_stroke_color">@color/pearl_gray</color>-->
+    <color name="consumer_bubble_message_text_color">@color/white</color>
+    <color name="consumer_bubble_message_link_text_color">@color/white</color>
+    <color name="consumer_bubble_timestamp_text_color">@color/dim_gray</color>
+    <color name="consumer_bubble_background_color">@color/color_background_user</color>
+    <color name="consumer_bubble_state_text_color">@color/dim_gray</color>
+
+
+    <!-- system bubble-->
+    <color name="system_bubble_text_color">@color/color_separator</color>
+
+    <!-- consumer bubble link_preview -->
+    <color name="consumer_bubble_link_preview_background_color">@android:color/white</color>
+    <color name="consumer_bubble_link_preview_title_text_color">@color/black</color>
+    <color name="consumer_bubble_link_preview_description_text_color">@color/dim_gray</color>
+
+    <!-- agent bubble link_preview -->
+    <color name="agent_bubble_link_preview_background_color">@android:color/white</color>
+    <color name="agent_bubble_link_preview_title_text_color">@color/black</color>
+    <color name="agent_bubble_link_preview_description_text_color">@color/dim_gray</color>
+
+
+    <!-- unread messages bubble-->
+    <color name="unread_indicator_bubble_text_color">@color/blue_sapphire</color>
+    <color name="unread_indicator_bubble_background_color">@color/aqua_haze</color>
+    <bool name="unread_indicator_bubble_enable">true</bool>
+
+
+    <!--Not mentioned in branding xml-->
+    <!-- unread scroll down fab-->
+    <bool name="scroll_down_indicator_enabled">false</bool>
+
+
+    <!-- icons visibility -->
+    <integer name="message_receive_icons">0</integer>
+
+    <!--Feedback Fragment-->
+    <color name="feedback_fragment_background_color">@color/white</color>
+    <color name="feedback_fragment_title_question">@color/white</color>
+    <color name="feedback_fragment_star">@color/white</color>
+    <color name="feedback_fragment_rate_text">@color/white</color>
+    <color name="feedback_fragment_agent_details_name">@color/white</color>
+
+    <color name="feedback_fragment_submit_message">@color/white</color>
+
+    <color name="feedback_fragment_submit_btn_enabled">@color/blue_sapphire</color>
+    <color name="feedback_fragment_submit_btn_text_enabled">@android:color/white</color>
+    <color name="feedback_fragment_submit_btn_disabled">@color/white</color>
+    <color name="feedback_fragment_submit_btn_text_disabled">@color/dim_gray</color>
+
+    <color name="feedback_fragment_submit_btn_stroke_enabled">@color/dim_gray</color>
+    <color name="feedback_fragment_submit_btn_stroke_disabled">@color/pearl_gray
+    </color>
+    <dimen name="feedback_fragment_submit_btn_stroke_width_enabled">0dp</dimen>
+    <dimen name="feedback_fragment_submit_btn_stroke_width_disabled">0dp</dimen>
+
+    <!--Feedback Fragment-->
+    <bool name="show_feedback">false</bool>
+    <bool name="show_yes_no_question">false</bool>
+    <bool name="show_agent_details_csat">false</bool>
+    <!-- if both show_yes_no_question & show_agent_details_csat are true, show_yes_no_question will be ignored-->
+    <bool name="show_csat_thank_you">false</bool>
+    <integer name="csatSurveyExpirationInMinutes">0</integer>
+
+
+    <!--TTR-->
+    <bool name="disableTTRPopup">false</bool>
+    <integer name="ttrShowFrequencyInSeconds">8</integer>
+
+    <string name="custom_button_icon_name">t_mobile_call_icon</string>
+    <string name="custom_button_icon_description">call</string>
+
+    <bool name="contextual_menu_on_toolbar">true</bool>
+
+    <string name="notification_large_icon_name">ic_launcher</string>
+
+
+    <integer name="encryptionVersion">1</integer>
+
+    <string name="csds_url">adminlogin.liveperson.net</string>
+    <string name="lptag_domain">lptag.liveperson.net</string>
+
+    <integer name="idp_num_history_conversation">2</integer>
+
+    <!--Credit card masking-->
+    <bool name="enable_client_only_masking">false</bool>
+    <bool name="enable_real_time_masking">false</bool>
+    <string name="client_only_masking_regex" />
+    <string name="real_time_masking_regex" />
+
+    <bool name="show_timestamp_in_ttr_notification">true</bool>
+
+    <!--Edit Text-->
+    <color name="edit_text_underline_color">@color/blue_sapphire</color>
+    <color name="lp_enter_msg_text">@color/black</color>
+    <color name="lp_enter_msg_hint">@color/color_disable</color>
+    <color name="lp_send_button_text_enable">@color/blue_sapphire</color>
+    <color name="lp_send_button_text_disable">@color/color_disable</color>
+
+    <bool name="use_send_image_button">true</bool>
+
+    <!--Clear History-->
+    <bool name="clear_history_show_confirm_dialog">true</bool>
+
+    <!--Photo sharing-->
+    <bool name="enable_photo_sharing">true</bool>
+    <bool name="upload_photo_using_service">true</bool>
+    <integer name="max_number_stored_images">20</integer>
+    <integer name="full_image_compression_rate">50</integer>
+    <integer name="thumbnail_longer_dimension_resize">100</integer>
+    <integer name="full_image_longer_dimension_resize">800</integer>
+    <integer name="max_image_size_kb">5000</integer>
+
+    <color name="attachment_menu_item_background_color">@color/white</color>
+
+    <color name="lp_attachment_menu_item_icon_color">@color/blue_sapphire</color>
+    <color name="lp_attachment_menu_item_text_color">@color/white</color>
+    <color name="lp_attachment_menu_background_color">@color/blue_sapphire</color>
+
+    <!--Links-->
+    <string name="lp_bubble_phone_links_regex" />
+    <string name="lp_bubble_url_links_regex" />
+    <string name="lp_bubble_email_links_regex" />
+
+    <!--Conversation Activity Style-->
+    <color name="lp_colorPrimary">@color/white</color>
+   <!--  <color name="lp_colorPrimaryDark">@color/navy_blue</color> -->
+    <color name="lp_textColorSecondary">@color/blue_sapphire</color>
+
+
+    <!--Conversation Separator-->
+    <bool name="enable_conversation_resolved_message">true</bool>
+    <bool name="enable_conversation_resolved_separator">true</bool>
+    <color name="conversation_separator_text_color">@color/color_separator</color>
+
+    <!-- Link Preview-->
+    <bool name="link_preview_enable_real_time_preview">true</bool>
+    <bool name="link_preview_use_big_picture">true</bool>
+    <bool name="link_preview_enable_feature">true</bool>
+    <bool name="link_preview_to_use_more_than_og_tags">false</bool>
+
+
+    <!--Resend pending message-->
+    <integer name="sendingMessageTimeoutInMinutes">60</integer>
+
+    <!-- Vibrate -->
+    <bool name="vibrate_enabled">false</bool>
+
+    <integer name="ttr_duration">3000</integer>
+    <integer name="ttrFirstTimeDelaySeconds">10</integer>
+
+    <!-- Off hours notification -->
+    <bool name="ttr_message_off_hours_enabled">true</bool>
+
+    <!-- Off hours notification -->
+
+
+    <!--Accessibility-->
+    <integer name="snachbar_duration_for_accessibility">60000</integer>
+    <bool name="announce_agent_typing">false</bool>
+    <bool name="show_agent_typing_in_message_bubble">false</bool>
+
+    <!-- Connection status bar -->
+    <color name="connection_status_connecting_bg_color">@color/blue_sapphire</color>
+    <color name="connection_status_not_connected_bg_color">@color/aqua_haze</color>
+    <color name="connection_status_connecting_text_color">@color/white</color>
+    <color name="connection_status_not_connected_text_color">@color/black</color>
+
+
+    <bool name="send_agent_profile_updates_when_conversation_closed">true</bool>
+
+    <string name="client_only_mask_character">*</string>
+    <string name="real_time_mask_character">*</string>
+
+    <!-- agent PCI bubble-->
+    <color name="agent_bubble_pci_form_invitation_background_color">@android:color/white</color>
+    <color name="agent_bubble_pci_form_invitation_background_btn_color">@android:color/white</color>
+    <color name="agent_bubble_pci_form_invitation_stroke_color">@color/aqua_haze</color>
+    <color name="agent_bubble_pci_form_invitation_button_text_color">@color/blue_sapphire
+    </color>
+    <color name="agent_bubble_pci_form_invitation_description_text_color">@color/pci_description
+    </color>
+    <color name="agent_bubble_pci_form_invitation_title_text_color">@color/black</color>
+    <color name="agent_bubble_pci_form_invitation_icon_tint_color">@color/blue_sapphire</color>
+
+    <!--PCI-->
+    <bool name="pci_form_hide_logo">false</bool>
+    <string name="pci_form_font_name"></string>
+
+
+
+    <!--Structured Content-->
+    <bool name="enable_structured_content">false</bool>
+
+    <!--Controller messages-->
+    <color name="conversation_controller_message_text_color">@color/color_separator</color>
+
+    <!-- Message bubble timestamp -->
+    <bool name="message_status_numeric_timestamp_only">false</bool>
+    <!-- new added -->
+    <color name="lp_header_text_color">@color/black</color>
+    <color name="lp_header_background_color">@color/white</color>
+
+</resources>

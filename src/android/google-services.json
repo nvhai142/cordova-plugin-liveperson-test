@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "13291642910",
+    "firebase_url": "https://liv365-907da.firebaseio.com",
+    "project_id": "liv365-907da",
+    "storage_bucket": "liv365-907da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13291642910:android:a0541e7fba8a70e5b30e0f",
+        "android_client_info": {
+          "package_name": "com.aspirelifestyles.android.liv365"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13291642910-f8btpahc91c8641iis9i81bbcm0alvl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALxmyYTUzcLYhS6kFl_7tHQT3AOIHspIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13291642910-f8btpahc91c8641iis9i81bbcm0alvl5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "13291642910-l2qhjfvkai1v0sonhehrvot690rjgmjf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aspirelifestyles.ios.liv365"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

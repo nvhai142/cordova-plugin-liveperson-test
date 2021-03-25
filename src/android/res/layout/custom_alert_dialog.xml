@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3191919">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/alert_dialog_shape"
+        android:orientation="vertical"
+        android:paddingTop="6dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="14dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            tools:text="title" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center_horizontal"
+            android:textColor="#767676"
+            android:textSize="15dp"
+            tools:text="message" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/button_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/negative_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_positive"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:text="Cancel"
+                android:textAllCaps="true"
+                android:textColor="#DB0011"
+                android:textSize="15dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/positive_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_negative"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:text="Yes"
+                android:textAllCaps="true"
+                android:textColor="#DB0011"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
