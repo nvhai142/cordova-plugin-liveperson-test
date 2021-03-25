@@ -143,8 +143,8 @@
 		
 		<framework src="LPMessagingSDK" type="podspec" spec="~> 5.2.1.1306-Swift-5.3-Beta-4"/>
 
-		<!-- <source-file src="src/ios/UIColor+LP.swift" />
-		<source-file src="src/ios/ConversationVC.swift" />
+		<source-file src="src/ios/UIColor+LP.swift" />
+		<!-- <source-file src="src/ios/ConversationVC.swift" />
 		<source-file src="src/ios/LPMessagingSDKPlugin.swift" /> -->
 		<source-file src="src/ios/LPMessagingSDKPlugin-Bridging-Header.h" />
 
