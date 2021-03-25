@@ -31,9 +31,9 @@ module.exports = function(context) {
           } 
 
           if (!data.includes("LPMessagingSDK")){
-              data = data.replace(/end/g, 'pod \'LPMessagingSDK\', :git => \'https://github.com/nvhai142/iOSPodSpecs.git\'\nend');
+              data = data.replace(/end/g, 'pod \'LPMessagingSDK\', :git => \'https://github.com/LivePersonInc/iOSPodSpecs.git\'\nend');
           } else {
-            data = data.replace(/^.*LPMessagingSDK.*$/mg, 'pod \'LPMessagingSDK\', :git => \'https://github.com/nvhai142/iOSPodSpecs.git\'\n');
+            data = data.replace(/^.*LPMessagingSDK.*$/mg, 'pod \'LPMessagingSDK\', :git => \'https://github.com/LivePersonInc/iOSPodSpecs.git\'\n');
           }
 
           var result = data;
