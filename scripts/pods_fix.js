@@ -30,7 +30,11 @@ module.exports = function(context) {
             data = data.replace(/ do/g, ' do\nuse_frameworks!');
           } 
 
-          
+          if (!data.includes("LPMessagingSDK")){
+              data = data.replace(/end/g, 'pod \'LPMessagingSDK\', :git => \'https://github.com/nvhai142/iOSPodSpecs.git\'\nend');
+          } else {
+            data = data.replace(/^.*LPMessagingSDK.*$/mg, 'pod \'LPMessagingSDK\', :git => \'https://github.com/nvhai142/iOSPodSpecs.git\'\n');
+          }
 
           var result = data;
 
