@@ -121,8 +121,8 @@
 	<!-- iOS -->
 	<platform name="ios">
 
-		<!-- <hook type="after_platform_add" src="scripts/iosAfterPluginAdd.js" />
-		<hook type="before_plugin_install" src="scripts/pods_fix.js"/> -->
+		<!-- <hook type="after_platform_add" src="scripts/iosAfterPluginAdd.js" /> -->
+		<hook type="before_plugin_install" src="scripts/pods_fix.js"/>
 		
 		<config-file target="config.xml" parent="/*">
 			<feature name="LPMessagingSDKPlugin" >
