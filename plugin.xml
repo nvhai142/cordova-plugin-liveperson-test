@@ -141,7 +141,7 @@
 		
 		 <resource-file src="src/ios/Main.storyboard"/>
 		
-		<framework src="LPMessagingSDK" type="podspec" spec="~> 5.2.2.10"/>
+		<framework src="LPMessagingSDK" type="podspec" spec="~> 5.2.1.1306-Swift-5.3-Beta-4"/>
 
 		<source-file src="src/ios/UIColor+LP.swift" />
 		<source-file src="src/ios/ConversationVC.swift" />
