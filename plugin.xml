@@ -54,7 +54,7 @@
 			</receiver>
         </config-file>
 
-		<resource-file src="src/android/google-services.json" target="."/>
+		<!-- <resource-file src="src/android/google-services.json" target="."/> -->
 		
         <!-- LivePerson Android SDK -->
 		<preference name="FCM_VERSION" default="17.5.+"/>
